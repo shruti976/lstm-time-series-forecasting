@@ -1,0 +1,26 @@
+{
+  "MLP": {
+    "MAE_degC": 0.9927,
+    "RMSE_degC": 1.2241,
+    "params": 94465,
+    "epochs_run": 16
+  },
+  "CNN": {
+    "MAE_degC": 0.4982,
+    "RMSE_degC": 0.6933,
+    "params": 21121,
+    "epochs_run": 30
+  },
+  "LSTM": {
+    "MAE_degC": 0.4909,
+    "RMSE_degC": 0.6752,
+    "params": 55361,
+    "epochs_run": 19
+  },
+  "CNN-LSTM": {
+    "MAE_degC": 0.543,
+    "RMSE_degC": 0.7369,
+    "params": 39681,
+    "epochs_run": 10
+  }
+}
